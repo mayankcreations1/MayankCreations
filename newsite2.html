@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mayank Creations</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #2b2b2b;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+    }
+
+    nav {
+      background-color: #444;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      padding: 60px 20px;
+      background: linear-gradient(to right, #ff512f, #dd2476);
+      color: white;
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 2.2em;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 1.2em;
+    }
+
+    .about, .projects, .contact {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .about h3, .projects h3, .contact h3 {
+      font-size: 2em;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+      text-align: center;
+    }
+
+    .card h4 {
+      margin-bottom: 10px;
+      color: #ff512f;
+    }
+
+    .card p {
+      font-size: 0.95em;
+      margin-bottom: 15px;
+    }
+
+    .card iframe {
+      width: 100%;
+      height: 200px;
+      border: none;
+      border-radius: 10px;
+    }
+
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+  .hero h2 {
+    font-size: 1.6em;
+  }
+
+  .hero p {
+    font-size: 1em;
+  }
+
+  .card iframe {
+    height: 180px;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .card h4 {
+    font-size: 1em;
+  }
+
+  .card p {
+    font-size: 0.9em;
+  }
+
+  header h1 {
+    font-size: 2em;
+  }
+
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about, .projects, .contact {
+    padding: 20px 10px;
+  }
+}
+
+      .hero p {
+        font-size: 1em;
+      }
+
+      .card iframe {
+        height: 180px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Mayank Creations</h1>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Videos</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h2>Creative Animated Stories & Entertainment</h2>
+    <p>Welcome to the world of fun, emotions, and imagination.</p>
+  </section>
+
+  <section id="about" class="about">
+    <h3>About Us</h3>
+    <p>Mayank Creations is a creative digital brand focused on producing engaging animated comedy, emotional animal stories, and romantic content in regional languages. With a passion for storytelling and a commitment to quality, we aim to bring smiles and connection to every viewer.</p>
+  </section>
+
+  <section id="projects" class="projects">
+    <h3>Popular Videos</h3>
+    <div class="project-grid">
+      <div class="card">
+        <h4>Mith mith lage maya ke bani</h4>
+        <p>A Beautifull love story in cg song by shekhar and Priya.</p>
+        <iframe src="https://www.youtube.com/embed/spo53AeYvP0" allowfullscreen></iframe>
+      </div>
+      <div class="card">
+        <h4>Aj gym Bike se jayenge</h4>
+        <p>Roj paidal jate the gym aj inko bike se jana hai.</p>
+        <iframe src="https://www.youtube.com/embed/uA61L8VtA5c" allowfullscreen></iframe>
+      </div>
+      <div class="card">
+        <h4>Maya Lage Love Song</h4>
+        <p>A heart-touching romantic Chhattisgarhi song video.</p>
+        <iframe src="https://www.youtube.com/embed/51kt-NmwB2Q" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+  <h3>Contact</h3>
+  <p>Have ideas, collaboration offers, or just want to say hi?</p>
+  <p>Email: <strong>mayankbhardawaz@gmail.com</strong></p>
+  <p>Visit our YouTube Channel: <a href="https://www.youtube.com/@mayankcreations" target="_blank">Mayank Creations on YouTube</a></p>
+
+
+</section>
+
+  <footer>
+    &copy; 2025 Mayank Creations. All rights reserved.
+  </footer>
+
+</body>
+</html>
